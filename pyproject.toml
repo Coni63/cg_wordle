@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cg-wordle"
+version = "0.1.0"
+description = ""
+authors = ["Nicolas M. <mine.nicolas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cg_wordle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "1.23.2"
+gprof2dot = "^2022.7.29"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
